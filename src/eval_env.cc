@@ -74,6 +74,7 @@ bool Rule::IsReservedBinding(const string& var) {
       var == "pool" ||
       var == "restat" ||
       var == "rspfile" ||
+      var == "logfile" ||
       var == "rspfile_content" ||
       var == "msvc_deps_prefix";
 }

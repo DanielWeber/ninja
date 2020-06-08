@@ -168,6 +168,8 @@ struct Edge {
   std::string GetUnescapedDyndep() const;
   /// Like GetBinding("rspfile"), but without shell escaping.
   std::string GetUnescapedRspfile() const;
+  /// Like GetBinding("logfile"), but without shell escaping.
+  std::string GetUnescapedLogfile() const;
 
   void Dump(const char* prefix="") const;
 
